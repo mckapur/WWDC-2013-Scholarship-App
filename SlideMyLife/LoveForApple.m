@@ -1,0 +1,24 @@
+//
+//  LoveForApple.m
+//  Slide My Life
+//
+//  Created by user on 1/5/13.
+//  Copyright (c) 2013 Rohan Kapur. All rights reserved.
+//
+
+#import "LoveForApple.h"
+
+@implementation LoveForApple
+
+- (id)initWithCoder:(NSCoder *)aDecoder
+{
+    if (self = [super initWithCoder: aDecoder]) {
+        
+        self.SlideID = [NSString stringWithFormat: @"%@", LOVE_FOR_APPLE_SLIDE];
+        self.isMasterSlide = YES;
+    }
+    
+    return self;
+}
+
+@end

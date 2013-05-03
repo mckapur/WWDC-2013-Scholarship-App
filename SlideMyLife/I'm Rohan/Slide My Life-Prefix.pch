@@ -1,0 +1,42 @@
+//
+// Prefix header for all source files of the 'I'm Rohan' target in the 'I'm Rohan' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#define INTRO_SLIDE @"Intro"
+#define WHO_I_AM_SLIDE @"WhoIAm"
+#define WHO_I_AM_SLIDE_AGE_SLIDE @"WhoIAm+Age"
+#define WHO_I_AM_SLIDE_NATIONALITY_SLIDE @"WhoIAm+Nationality"
+#define WHO_I_AM_SLIDE_MULTICULTURAL_EH_SLIDE @"WhoIAm+MulticulturalEh"
+#define LOVE_FOR_APPLE_SLIDE @"LoveForApple"
+#define LOVE_FOR_APPLE_IPOD_NANO_SLIDE @"LoveForApple+iPodNano"
+#define LOVE_FOR_APPLE_IPOD_TOUCH_SLIDE @"LoveForApple+iPodTouch"
+#define LOVE_FOR_APPLE_IPHONEIMAC_SLIDE @"LoveForApple+iPhoneiMac"
+#define A_CODER_WAS_BORN_SLIDE @"ACoderWasBorn"
+#define A_CODER_WAS_BORN_DOWNLOADEDXCODE_SLIDE @"ACoderWasBorn+DownloadedXcode"
+#define A_CODER_WAS_BORN_ROHAN_QUOTE_SLIDE @"ACoderWasBorn+RohanQuote"
+#define A_CODER_WAS_BORN_WANTEDTOLEARNCODE_SLIDE @"ACoderWasBorn+WantedToLearnCode"
+#define A_CODER_WAS_BORN_LEARNING_SLIDE @"ACoderWasBorn+Learning"
+#define A_CODER_WAS_BORN_DETERMINED_SLIDE @"ACoderWasBorn+Determined"
+#define PROJECTS_SLIDE @"Projects"
+#define PROJECTS_ONTHESTORE_SLIDE @"Projects+OnTheStore"
+#define PROJECTS_INPROGRESS_SLIDE @"Projects+InProgress"
+#define PROJECTS_EXPERIMENTS_SLIDE @"Projects+Experiments"
+#define WWDC_SLIDE @"WWDC"
+#define WWDC_WWDCTWEETS_SLIDE @"WWDC+WWDCTweets"
+#define WWDC_WWDCEMAIL_SLIDE @"WWDC+WWDCEmail"
+#define WWDC_WWDCWHY_SLIDE @"WWDC+WWDCWhy"
+#define WHYIMAKEAPPS_SLIDE @"WhyIMakeApps"
+#define THINKDIFFERENT_SLIDE @"ThinkDifferent"
+
+#define IS_IPHONE_5 ([UIScreen mainScreen].bounds.size.height == 568.0)
